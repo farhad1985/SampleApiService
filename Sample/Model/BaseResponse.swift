@@ -9,7 +9,5 @@
 import Foundation
 
 struct BaseResponse<T: Codable>: Codable {
-    var page: Int
-    var total: Int
     var data: T?
 }

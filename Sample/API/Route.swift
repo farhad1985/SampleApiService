@@ -13,8 +13,10 @@ let baseURL = "https://reqres.in"
 enum Route: String {
     
     case users = "/api/users"
-    
+    case products = "/api/unknown"
+
     var value: String {
         return baseURL + self.rawValue
     }
 }
+

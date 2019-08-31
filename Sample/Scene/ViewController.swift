@@ -15,14 +15,17 @@ class ViewController: UIViewController {
 
 
         fetchUsers()
+        fetchProducts()
     }
     
     private func fetchUsers() {
-        let service = APIService<[User]>()
+        let service = APIService<BaseResponse<[User]>>()
         
         let route = Route.users.value + "?page=1"
         
         service.request(url: route) { (result) in
+            print("------Users------)")
+
             switch result {
             case .success(let value):
                 print(value)
@@ -30,6 +33,31 @@ class ViewController: UIViewController {
             case .failure(let error):
                 print(error)
             }
+            
+            print("------End------)")
+
+        }
+    }
+    
+    private func fetchProducts() {
+
+        let service = APIService<BaseResponse<Product>>()
+        
+        let route = Route.products.value + "/2"
+        
+        service.request(url: route) { (result) in
+            print("------Products------)")
+
+            switch result {
+            case .success(let value):
+                print(value)
+                
+            case .failure(let error):
+                print(error)
+            }
+            
+            print("------End------)")
+
         }
     }
 }

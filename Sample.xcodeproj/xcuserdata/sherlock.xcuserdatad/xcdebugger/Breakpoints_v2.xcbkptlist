@@ -35,5 +35,53 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sample/Scene/ViewController.swift"
+            timestampString = "588949330.2462209"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "fetchProducts()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Sample.ViewController.(fetchProducts in _6E17C1D53B970DDB4906E77BA56B7917)() -&gt; ()"
+                  moduleName = "Sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sherlock/Desktop/Sample/Sample/Scene/ViewController.swift"
+                  timestampString = "588949218.399399"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "170">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Sample.Result&lt;Sample.BaseResponse&lt;Sample.Product&gt;&gt;) -&gt; () in Sample.ViewController.(fetchProducts in _6E17C1D53B970DDB4906E77BA56B7917)() -&gt; ()"
+                  moduleName = "Sample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sherlock/Desktop/Sample/Sample/Scene/ViewController.swift"
+                  timestampString = "588949218.402148"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "119">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

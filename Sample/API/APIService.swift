@@ -10,7 +10,7 @@ import Foundation
 
 class APIService<T: Codable>: Requestable {
     
-    func request(url: String, completion: @escaping (Result<BaseResponse<T>>) -> ()) {
+    func request(url: String, completion: @escaping (Result<T>) -> ()) {
         request(route: url, completion: completion)
     }
 }
